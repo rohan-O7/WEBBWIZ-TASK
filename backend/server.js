@@ -20,7 +20,7 @@ app.use((req, res, next) => {
 app.use('/api/workouts', workoutRoutes)
 app.use('/api/user', userRoutes)
 
-// connect to db
+// connect
 mongoose.connect(process.env.MONGO_URI)
   .then(() => {
     // listen for requests
