@@ -5,7 +5,6 @@ const mongoose = require('mongoose')
 const workoutRoutes = require('./routes/workouts')
 const userRoutes = require('./routes/user')
 
-// express app
 const app = express()
 
 // middleware
