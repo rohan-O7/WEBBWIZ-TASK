@@ -6,8 +6,8 @@
   "scripts": {
   "start": "node server.js",
   "dev": "nodemon server.js",
-  "build": "echo 'No build step required'",
-  "prestart": "npm install"
+  "build": "npm install",
+  "dev": "nodemon -L server.js"
 },
   "keywords": [],
   "author": "",
